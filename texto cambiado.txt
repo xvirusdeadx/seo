@@ -1,0 +1,4 @@
+.1-cambie el h1 y h2 (al h1 poniendo palabra clave como "informatica" y al h2 como sinonimo de la misma como "Teconlogia De La Informacion" para mejor seo o posicionamiento en el motor de busqueda
+.2-puse una meta description para la pagina 
+.3-modifique los buttons para llamar mas la atencion al cliente 
+.4-cambie los lorem por texto real =D

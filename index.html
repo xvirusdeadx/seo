@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ARTWEB. una web que se utiliza para ayudar al usuario a comprender el famoso mundo de lo informatico, con cursos de HARDWARE, UX/UI, Desarrollo WEB y entre otros muchos mas...">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>TE ENSEÑAMOS TODO LO QUE TIENES QUE SABER PARA ADENTRARTE EN EL MUNDO DE LA INFORMATICA</h1>
+            <p>
+            Desarrollate en las artes de Informatica y estudia tu propia carrera, Desde desarrollo web hasta hardware de pc, Haste un genio en la materia del Futuro
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">¿QUE ES LA INFORMATICA?</button>
+                <button class="btn-secundario" type ="submit">¿que rama aprendo primero?</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>La Mejor Manera De Aprender Teconlogia De La Informacion Desde La Comodidad De Tu Casa</h2>
+                    
+                <p>
+                  Crea tu propio futuro haciendo lo que mas te gusta, ¿cual sera tu proxima Carrera?
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Diseño UX/UI</h3>
+                    <p>
+                        El diseño de interfaz de usuario o ingeniería de la interfaz es el resultado de definir la forma, función, utilidad, ergonomía, imagen de marca y otros aspectos que afectan a la apariencia externa de las interfaces de usuario en sistemas de todo tipo.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Desarrollo WEB</h3>
+                    <p>
+                        Desarrollo web es un término que define la creación de sitios web para Internet o una intranet.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Comercio Digital</h3>
+                    <p>
+                        El comercio electrónico ​—también conocido como e-commerce​, comercio por Internet o comercio en línea— consiste en la compra y venta de productos o de servicios a través de internet, tales como redes sociales y otras páginas web.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            naza barbulo &copy;Todos los derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
